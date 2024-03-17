@@ -2,7 +2,7 @@
 
 
 const { createApp, ref } = Vue
-const url = window.location.href;
+const urlt = "https://leongon.github.io/GTobsequios/";
 
 const app = createApp({
 
@@ -16,10 +16,10 @@ const app = createApp({
 
     methods: {
         get_bd: async function () {
-            const data = await axios.get(url + "bd.json")
+            const data = await axios.get(urlt + "bd.json")
             this.items = data.data
             this.url=window.location.href
-            console.log(url)
+            console.log(urlt)
             const urls = new URL(window.location.href); // se crea el objeto URL, el cual almacena toda la URL
             const params = urls.searchParams; //se almacenan todos los parámetros en una variable
             const id = params.get("id"); // se utiliza el método GET para captar el valor del parámetro nombre
