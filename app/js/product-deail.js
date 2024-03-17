@@ -2,7 +2,7 @@
 
 
 const { createApp, ref } = Vue
-const url = "http://192.168.0.10/tienda/";
+const url = window.location.href;
 
 const app = createApp({
 
