@@ -46,36 +46,111 @@
             </div>
         </div>
     </nav>
-    <div id="app" class="container-fluid py-4 py-xl-5">
-        <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 row-cols-xl-4 row-cols-xs-2 g-3">
-            <div class="col hp" v-for="item in items">
-                <div class="card h-100">
-                    <img class="card-img-top w-100 d-block card-img-top" :src="item.img" alt="product.title">
-                    <div class="shadow-sm label-top">
-                        <span class="text-uppercase fw-bold float-end">{{ item.titulo }}</span>
-                    </div>
-                    <div class="card-body">
-                        <div class="clearfix mb-3"><span class="badge rounded-pill bg-success float-start">S/ {{
-                                item.precio }}</span><span class="text-capitalize fw-bold float-end">{{ item.titulo
-                                }}</span></div>
-                        <h5 class="text-center card-title" style="font-size: 14px;">{{ item.detalle }}<br><br><br></h5>
-                        <div class="d-grid gap-2 d-flex ">
-                            <a class="btn btn-secondary bold-btn" role="button" data-bss-hover-animate="jello"
-                                :href="url+'detalle-producto.html?id='+item.id" target="_blank" rel="external">Ver</a>
-                            <a class="btn btn-warning bold-btn" role="button" data-bss-hover-animate="jello"
-                                :href="'https://api.whatsapp.com/send?phone=51914684700&text='+ url+'detalle-producto.html?id='+item.id"
-                                target="_blank" rel="external">pedir</a>
+    <section class="section-one p-2">
+        <div class="container ">
+            <div class="row">
+                <div class="col-xl-3 mt-2">
+                    <div class="card carta d-flex align-items-center bg-dark text-light text-center ">
+                        <img src="assets/img/iconos/pedido-icono-tel_1.svg" class="img-fluid" width="40%" alt="">
+                        <div class="d-flex  align-items-center bg-success text-light">
+                            <h1 class="text-light">1.</h1>
+                            <h4 class="text-light"> HAGA SU PEDIDO AHORA</h4>
                         </div>
+                        <div class="d-flex align-items-center  ">
+                        <p class="font-weight-bold">
+                            LE HACEMOS UNA COTIZACIÓN Y CANCELA EL 50% COMO ADELANTO DEL TRABAJO
+                        </p>
+                    </div>
 
                     </div>
                 </div>
 
+                <div class="col-xl-3 mt-2">
+                    <div class="card carta d-flex align-items-center bg-dark text-light text-center ">
+                        <img src="assets/img/iconos/pedido-icono-logo_1.svg" class="img-fluid" width="40%" alt="">
+                        <div class="d-flex  align-items-center bg-success text-light">
+                            <h1 class="text-light">2.</h1>
+                            <h4 class="text-light"> ENVÍENOS SU LOGO O DISEÑO</h4>
+                        </div>
+                        <div class="d-flex align-items-center  ">
+                        <p class="font-weight-bold">
+                            LE HACEMOS UNA COTIZACIÓN Y CANCELA EL 50% COMO ADELANTO DEL TRABAJO
+                        </p>
+                    </div>
+
+                    </div>
+                </div>
+
+                <div class="col-xl-3 mt-2">
+                    <div class="card carta d-flex align-items-center bg-dark text-light text-center ">
+                        <img src="assets/img/iconos/pedido-icono-arte.svg" class="img-fluid" width="40%" alt="">
+                        <div class="d-flex  align-items-center bg-success text-light">
+                            <h1 class="text-light">3.</h1>
+                            <h4 class="text-light"> LE ENVIAMOS UN MODELO VIRTUAL</h4>
+                        </div>
+                        <div class="d-flex align-items-center  ">
+                        <p class="font-weight-bold">
+                            ES UNA SIMULACIÓN DIGITAL DE CÓMO QUEDARÍA SU PRODUCTO, DEBE APROBARLA
+                        </p>
+                    </div>
+
+                    </div>
+                </div>
+
+                <div class="col-xl-3 mt-2">
+                    <div class="card carta d-flex align-items-center bg-dark text-light text-center ">
+                        <img src="assets/img/iconos/pedido-icono-delivery_1.svg" class="img-fluid" width="40%" alt="">
+                        <div class="d-flex  align-items-center bg-success text-light">
+                            <h1 class="text-light">4.</h1>
+                            <h4 class="text-light"> LE LLEVAMOS SU PEDIDO GRATIS</h4>
+                        </div>
+                        <div class="d-flex align-items-center  ">
+                        <p class="font-weight-bold">
+                            ANTES DEBE CANCELAR EL 50% RESTANTE Y COORDINAR LA ENTREGA
+                        </p>
+                    </div>
+
+                    </div>
+                </div>
+
+                
+            
+
             </div>
         </div>
+    </section>
+    <h1 class="text-center mt-2 text-blnaco-sombra bg-dark">Productos</h1>
+    <section>
+        <div id="app" class="container-fluid py-4 py-xl-5">
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 row-cols-xl-4 row-cols-xs-2 g-3">
+                <div class="col hp" v-for="item in items">
+                    <div class="card carta h-100">
+                        <img class="card-img-top w-100 d-block card-img-top" :src="item.img" alt="product.title">
+                        <div class="shadow-sm label-top">
+                            <span class="text-uppercase fw-bold float-end">{{ item.titulo }}</span>
+                        </div>
+                        <div class="card-body">
+                            <div class="clearfix mb-3"><span class="badge rounded-pill bg-success float-start">S/ {{
+                                    item.precio }}</span><span class="text-capitalize fw-bold float-end">{{ item.titulo
+                                    }}</span></div>
+                            <h5 class="text-center card-title" style="font-size: 14px;">{{ item.detalle }}<br><br><br>
+                            </h5>
+                            <div class="d-grid gap-2 d-flex ">
+                                <a class="btn btn-secondary bold-btn" role="button" data-bss-hover-animate="jello"
+                                    :href="url+'detalle-producto.html?id='+item.id" target="_blank"
+                                    rel="external">Ver</a>
+                                <a class="btn btn-warning bold-btn" role="button" data-bss-hover-animate="jello"
+                                    :href="'https://api.whatsapp.com/send?phone=51914684700&text='+ url+'detalle-producto.html?id='+item.id"
+                                    target="_blank" rel="external">pedir</a>
+                            </div>
 
-    </div>
-    </div>
+                        </div>
+                    </div>
 
+                </div>
+            </div>
+        </div>
+    </section>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/js/bs-init.js"></script>
     <script src="app/js/app.js"></script>

@@ -1,9 +1,9 @@
 [
     {   "id":0,
-        "img": "https://live.staticflickr.com/65535/53561136922_655834fc30_z.jpg",
-        "img1":"https://live.staticflickr.com/65535/53561136922_655834fc30_z.jpg",
-        "img2":"https://live.staticflickr.com/65535/53561136922_655834fc30_z.jpg",
-        "img3":"https://live.staticflickr.com/65535/53561136922_655834fc30_z.jpg",
+        "img": "assets/img/img-Productos/tazas/taza(1).png",
+        "img1":"assets/img/img-Productos/tazas/taza(2).png",
+        "img2":"assets/img/img-Productos/tazas/taza(3).png",
+        "img3":"assets/img/img-Productos/tazas/taza(4).png",
         
         "titulo": "Pack peluche | Alianza",
         "detalle": "El regalo perfecto para sorprender a tu hincha Aliancista favorito con este detalle que amará.💙🎁🧸",

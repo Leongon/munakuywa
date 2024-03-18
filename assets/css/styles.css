@@ -13,12 +13,11 @@
   --link-color-hover: #fff;
   --bg-content-color: #ffcc00;
 }
-
 .container-fluid {
   max-width: 1400px;
 }
 
-.card {
+.carta {
   background: #fff;
   box-shadow: 0 6px 10px rgba(0,0,0,0.37), 0 0 6px rgb(0,0,0);
   transition: .3s transform cubic-bezier(.155, 1.105, .295, 1.12), .3s box-shadow, .3s -webkit-transform cubic-bezier(.155, 1.105, .295, 1.12);
@@ -31,14 +30,14 @@
   border-top-right-radius: calc(1rem - 1px);
 }
 
-.card h5 {
+.carta h5 {
   overflow: hidden;
   height: 55px;
   font-weight: 300;
   font-size: 1rem;
 }
 
-.card h5 a {
+.carta h5 a {
   color: black;
   text-decoration: none;
 }
@@ -51,11 +50,11 @@
   padding: 30px;
 }
 
-.card h2 {
+.carta h2 {
   font-size: 1rem;
 }
 
-.card:hover {
+.carta:hover {
   transform: scale(1.02);
   box-shadow: 0 10px 20px rgba(0, 0, 0, .12), 0 4px 8px rgba(0, 0, 0, .06);
 }
@@ -205,3 +204,29 @@
   color: darkgray;
 }
 
+.product-title{
+  background-color: var(--label-index);
+  color: #fff;
+  border-radius: 10px;
+  text-transform: uppercase;
+
+}
+
+.new-price{
+  color: #207abb;
+}
+
+
+body{
+  background: rgb(28,16,207);
+background: -moz-radial-gradient(circle, rgba(28,16,207,1) 0%, rgba(142,147,230,1) 50%, rgba(142,202,230,1) 100%);
+background: -webkit-radial-gradient(circle, rgba(28,16,207,1) 0%, rgba(142,147,230,1) 50%, rgba(142,202,230,1) 100%);
+background: radial-gradient(circle, rgba(28,16,207,1) 0%, rgba(142,147,230,1) 50%, rgba(142,202,230,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#1c10cf",endColorstr="#8ecae6",GradientType=1);
+}
+
+.text-blnaco-sombra{
+  color: #fff;
+  text-shadow: -3px -1px 7px rgba(0,0,0,0.51);
+
+}
