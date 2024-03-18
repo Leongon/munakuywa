@@ -4,31 +4,28 @@
         "img1":"assets/img/img-Productos/tazas/taza(2).png",
         "img2":"assets/img/img-Productos/tazas/taza(3).png",
         "img3":"assets/img/img-Productos/tazas/taza(4).png",
-        
-        "titulo": "Pack peluche | Alianza",
-        "detalle": "El regalo perfecto para sorprender a tu hincha Aliancista favorito con este detalle que amará.💙🎁🧸",
-        "precio": "74.00"
+        "titulo": "Taza magica de 11 oz | Personalizada",
+        "detalle": "El regalo perfecto para sorprender a tu mama, papa, pareja, amigos .....💙🎁🧸",
+        "precio": " 20.00"
     },
     {   "id":1,
-        "img": "https://live.staticflickr.com/65535/53561136917_3cc34bd4eb_z.jpg",
-        "img1": "https://live.staticflickr.com/65535/53561136917_3cc34bd4eb_z.jpg",
-        "img2": "https://live.staticflickr.com/65535/53561136917_3cc34bd4eb_z.jpg",
-        "img3": "https://live.staticflickr.com/65535/53561136917_3cc34bd4eb_z.jpg",
-        
-
-        "titulo": "Almohada Personalizada",
+        "img": "assets/img/img-Productos/almohada/almohadas(1).png",
+        "img1": "assets/img/img-Productos/almohada/almohadas(1).jpeg",
+        "img2": "assets/img/img-Productos/almohada/almohadas(2).png",
+        "img3": "assets/img/img-Productos/almohada/almohadas(3).png",
+        "titulo": "Almohada | Personalizada",
         "detalle": "Personaliza la almohada con fotos que capturen momentos especiales y dulces dedicatorias llenas de complicidad 😍",
-        "precio": "49.00"
+        "precio": " 25.00"
     },
 
     {   "id":2,
-        "img": "https://live.staticflickr.com/65535/53562441520_725d2b3111_z.jpg",
-        "img1": "https://live.staticflickr.com/65535/53562441520_725d2b3111_z.jpg",
-        "img2": "https://live.staticflickr.com/65535/53562441520_725d2b3111_z.jpg",
-        "img3": "https://live.staticflickr.com/65535/53562441520_725d2b3111_z.jpg",
+        "img": "assets/img/img-Productos/tomatodo/tomatodo(1).png",
+        "img1": "assets/img/img-Productos/tomatodo/tomatodo(2).png",
+        "img2": "assets/img/img-Productos/tomatodo/tomatodo(3).png",
+        "img3": "assets/img/img-Productos/tomatodo/tomatodo(4).png",
         
-        "titulo": "Álbum | Nuestras 100 Citas",
-        "detalle": "Diviértete creando recuedos junto a tu pareja y haciendo nuevas actividades con nuestro ábum de 100 citas que incluyen diferentes planes que podrán realizar juntos para escapar de la rutina.🥰",
-        "precio": "49.00"
+        "titulo": "Toma Todo | 500ml",
+        "detalle": "Tomatodos Personalizados de 500ml, 700ml. Ideal para sorprender a tus seres queridos, personalizada con la técnica de sublimación..🥰",
+        "precio": " 25.00"
     }
 ]
