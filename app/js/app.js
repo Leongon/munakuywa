@@ -3,9 +3,10 @@ const { createApp, ref } = Vue
 urls="https://leongon.github.io/GTobsequios/";
 
 const app = createApp({
+ 
   data() {
     return {
-        items:"",
+        items:"dsadsds",
         url:urls
     }
   },
