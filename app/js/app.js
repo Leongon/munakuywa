@@ -1,6 +1,6 @@
 
 const { createApp, ref } = Vue
-urls="https://leongon.github.io/GTobsequios/";
+urls="https://leongon.github.io/munukaywa/";
 
 const app = createApp({
  
