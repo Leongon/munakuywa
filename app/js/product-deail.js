@@ -2,7 +2,7 @@
 
 
 const { createApp, ref } = Vue
-const urlt = "https://leongon.github.io/GTobsequios/";
+const urlt = "https://leongon.github.io/munukaywa/";
 /* const urlt = "http://192.168.0.10//GTobsequios/"; */
 
 const app = createApp({
